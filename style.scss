@@ -1,0 +1,990 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 360px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 70vh;
+        background-color: aliceblue;
+    
+        h1 {
+            font-weight: bolder;
+            color: #201c74;
+        }
+    
+        h3 {
+            color: rgb(68, 62, 62);
+            margin-bottom: 10px;
+        }
+    
+        p {
+            color: rgb(68, 62, 62);
+            font-size: 18px;
+            margin-bottom: -75px;
+            padding: 3px;
+        }
+    
+        // margin-bottom: 15px;
+    }
+    
+    .separacion {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        p {
+            color: #201c74;
+            margin-left: 5px;
+        }
+    }
+    
+    .medio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .espaciado{
+        margin-top: 50px;
+    }
+
+    .col-1  {
+        width: 360px;
+    
+        .pase {
+            display: flex;
+            flex-direction: column ;
+            background-color: #201c74;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 320px;
+            height: 150px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+    
+            h4 {
+                margin-top: 15px;
+                margin-left: 20px;
+                color: white;
+                font-weight: bold;
+                height: 70px;
+                margin-bottom: -20px;
+            }
+    
+            .form-control  { 
+                width: 280px;
+                height: 50px;
+                margin-left: 15px;
+                border-radius: 0%;
+            }
+        }
+        .card {
+            width: 320px;
+            height: 450px;
+            margin-left: 20px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+            }
+        
+            p {
+                margin-top: -80px;
+                text-align: center;
+                color: rgb(65, 65, 65);
+                font-weight: bolder;
+            }
+        
+            .botonInfo {
+                margin-top: -80px;
+                width: 180px;
+                height: 55px;
+                margin-left: 70px;
+                border-radius: 0%;   
+                font-weight: bolder; 
+                color: rgb(25, 204, 204);
+            }
+        }
+        .card2 {
+            width: 320px;
+            height: auto;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 22px;
+            }
+            p{
+                text-align: center;
+                color: gray;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+    
+    
+            .col_Atracciones{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+    
+                .averga{
+                display: flex;
+                flex-direction: column;
+                text-align: initial;
+                width: 280px;
+
+                    h5{
+                    color: rgb(25, 204, 204);
+                    margin-left: 10px;
+                }
+                .Uno{
+                list-style: none;
+                color:#201c74;
+                font-size: 13px;
+                text-align: start;
+                margin-left: -20px;
+            }
+        }
+        }
+        .linea{
+            border-top: 3px solid rgb(25, 204, 204);
+            height: 2px;
+            width: 300px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .diaNormal{
+            margin-top: 2.5px;
+            margin-left: -75px;
+            h6{
+                color: #201c74;
+                font-weight: bold;
+                text-align: end;
+            }
+            .Dos{
+                list-style: none;
+                color:#201c74;
+                font-size: 15px;
+                text-align: end;
+            }
+        }
+    }
+        .card3{
+            width: 320px;
+            height: auto;
+            margin-left: 20px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            margin-bottom: 20px;
+            p{
+                color:#201c74;
+            }
+            .saveFinal{
+                color: rgb(211, 12, 112);
+                font-weight: bolder;
+            }
+            .preciosFinales{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-right: 30px;
+                li{
+                    margin-top: 15px;
+                    list-style: none;
+                    text-align: start;
+                    color:#201c74;
+                }
+                .saveFinal{
+                    color: rgb(211, 12, 112);
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    
+    .saveFinal{
+        color: rgb(211, 12, 112);
+        font-weight: bolder;
+    }
+    
+    
+    .nav-link {
+        color: #201c74;
+        font-weight: bolder;
+    }
+    
+    
+    #col-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    
+    
+        .filtrar {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            width: 320px;
+            margin-left: 20px;    
+            p {
+                color: black;
+                margin-right: 12px;
+                font-size: 15px;
+            }
+    
+            .icon {
+                width: 20px;
+                height: 25px;
+                margin-right: 5px;
+            }
+    
+            .ordenar {
+                margin-left: 1px;
+            }
+            .mapaNy{
+            margin-left: -160px;
+            margin-top: 20px;
+            width: 300px;
+            height:400px;
+        }
+    }
+    
+    #lugares{
+
+    .cardsPlaces {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 320px;
+        height: 140px;
+
+
+        .sizeImg{
+            height: 140px;
+            width: 140px;
+        }
+
+        .info {
+            padding-left: 10px;
+            padding-top: 10px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 200px;
+            h5{
+                color: #201c74;
+                font-weight: bold;
+            }
+            p{
+                display: none;
+            }
+            .ticket{
+                display: flex;
+                color: black;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+        }
+    }
+}
+    .mostrarMas{
+        margin-top: 25px;
+        text-decoration: underline;
+        color:rgb(25, 204, 204);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    }
+
+
+    
+    
+    .space {
+        display: flex;
+        height: 100px;
+        background-color: white;
+    }
+
+    footer{
+        background-color: red;
+        height: 30vh;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 70vh;
+        background-color: aliceblue;
+    
+        h1 {
+            font-weight: bolder;
+            color: #201c74;
+        }
+    
+        h3 {
+            color: rgb(68, 62, 62);
+            margin-bottom: 10px;
+        }
+    
+        p {
+            color: rgb(68, 62, 62);
+            font-size: 18px;
+            margin-bottom: -75px;
+            padding: 3px;
+        }
+    
+        // margin-bottom: 15px;
+    }
+    
+    .separacion {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        margin-left: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        p {
+            color: #201c74;
+            margin-left: 5px;
+        }
+    }
+    
+    .medio {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .col-1  {
+        width: 320px;
+        margin-left: -60px;
+        margin-top: 60px;
+    
+        .pase {
+            display: flex;
+            flex-direction: column ;
+            background-color: #201c74;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 280px;
+            height: 140px;
+            margin-bottom: 10px;
+    
+            h4 {
+                margin-top: 15px;
+                margin-left: 20px;
+                color: white;
+                font-weight: bold;
+                height: 70px;
+                margin-bottom: -20px;
+            }
+    
+            .form-control  { 
+                width: 220px;
+                height: 50px;
+                margin-left: 15px;
+                border-radius: 0%;
+            }
+        }
+        .card {
+            width: 280px;
+            height: 450px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+            }
+        
+            p {
+                margin-top: -80px;
+                text-align: center;
+                color: rgb(65, 65, 65);
+                font-weight: bolder;
+            }
+        
+            .botonInfo {
+                margin-top: -80px;
+                width: 180px;
+                height: 55px;
+                margin-left: 70px;
+                border-radius: 0%;   
+                font-weight: bolder; 
+                color: rgb(25, 204, 204);
+            }
+        }
+        .card2 {
+            width: 280px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 22px;
+            }
+            p{
+                text-align: center;
+                color: gray;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+    
+    
+            .col_Atracciones{
+                display: flex;
+                flex-direction: row;
+    
+                .averga{
+                display: flex;
+                flex-direction: column;
+                text-align: initial;
+                width: 150px;
+
+                    h5{
+                    color: rgb(25, 204, 204);
+                    margin-left: 10px;
+                }
+                .Uno{
+                list-style:circle;
+                color:#201c74;
+                font-size: 13px;
+                text-align: start;
+                margin-left: -20px;
+            }
+        }
+        }
+        .linea{
+            border-top: 3px solid rgb(25, 204, 204);
+            height: 2px;
+            width: 250px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .diaNormal{
+            margin-top: 2.5px;
+            margin-left: -25px;
+            h6{
+                color: #201c74;
+                font-weight: bold;
+                text-align: end;
+            }
+            .Dos{
+                list-style: none;
+                color:#201c74;
+                font-size: 15px;
+                text-align: end;
+                margin-top: 10px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+        .card3{
+            width: 280px;
+            height: auto;
+            margin-left: 20px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            margin-bottom: 20px;
+            p{
+                color:#201c74;
+            }
+            .saveFinal{
+                color: rgb(211, 12, 112);
+                font-weight: bolder;
+            }
+            .preciosFinales{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-right: 30px;
+                li{
+                    margin-top: 15px;
+                    list-style: none;
+                    text-align: start;
+                    color:#201c74;
+                }
+                .saveFinal{
+                    color: rgb(211, 12, 112);
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    
+    .saveFinal{
+        color: rgb(211, 12, 112);
+        font-weight: bolder;
+    }
+    
+    
+    .nav-link {
+        color: #201c74;
+        font-weight: bolder;
+    }
+    
+    
+    #col-2 {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    
+    
+        .filtrar {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            width: 320px;
+            margin-left: 40px;    
+            p {
+                color: black;
+                margin-right: 12px;
+                font-size: 15px;
+            }
+    
+            .icon {
+                width: 20px;
+                height: 25px;
+                margin-right: 5px;
+            }
+    
+            .ordenar {
+                margin-left: 1px;
+            }
+            .mapaNy{
+            margin-left: -50px;
+            margin-top: 40px;
+        }
+    }
+    
+    #lugares{
+
+    .cardsPlaces {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 400px;
+        height: 150px;
+
+        .sizeImg{
+            height: 150px;
+            width: 150px;
+        }
+    
+        .info {
+            padding-left: 10px;
+            padding-top: 10px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 400px;
+            h5{
+                color: #201c74;
+                font-weight: bold;
+            }
+            p{
+                display: flex;
+                font-size: 15px;
+            }
+            .ticket{
+                display: flex;
+                color: black;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+        }
+    }
+}
+    .mostrarMas{
+        margin-top: 40px;
+        text-decoration: underline;
+        color:rgb(25, 204, 204);
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    }
+
+
+    
+    
+    .space {
+        display: flex;
+        height: 100px;
+        background-color: white;
+    }
+
+    footer{
+        background-color: red;
+        height: 30vh;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 70vh;
+        background-color: aliceblue;
+    
+        h1 {
+            font-weight: bolder;
+            color: #201c74;
+        }
+    
+        h3 {
+            color: rgb(68, 62, 62);
+            margin-bottom: 10px;
+        }
+    
+        p {
+            color: rgb(68, 62, 62);
+            font-size: 18px;
+            margin-bottom: -75px;
+            padding: 3px;
+        }
+    }
+    
+    .separacion {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+        margin-left: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        p {
+            color: #201c74;
+            margin-left: 5px;
+        }
+    }
+    
+    .medio {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .col-1  {
+        width: 320px;
+        margin-left: -100px;
+
+    
+        .pase {
+            display: flex;
+            flex-direction: column ;
+            background-color: #201c74;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 380px;
+            height: 160px;
+            margin-bottom: 22px;
+    
+            h4 {
+                margin-top: 15px;
+                margin-left: 20px;
+                color: white;
+                font-weight: bold;
+                height: 70px;
+                margin-bottom: -20px;
+            }
+    
+            .form-control  { 
+                width: 350px;
+                height: 50px;
+                margin-left: 15px;
+                border-radius: 0%;
+            }
+        }
+        .card {
+            width: 380px;
+            height: 450px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+            }
+        
+            p {
+                margin-top: -80px;
+                text-align: center;
+                color: rgb(65, 65, 65);
+                font-weight: bolder;
+            }
+        
+            .botonInfo {
+                margin-top: -80px;
+                width: 180px;
+                height: 55px;
+                margin-left: 100px;
+                border-radius: 0%;   
+                font-weight: bolder; 
+                color: rgb(25, 204, 204);
+            }
+        }
+        .card2 {
+            width: 380px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+        
+            h3 {
+                font-weight: bold;
+                color: #201c74;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 22px;
+            }
+            p{
+                text-align: center;
+                color: gray;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+    
+    
+            .col_Atracciones{
+                display: flex;
+                flex-direction: row;
+    
+                .averga{
+                display: flex;
+                flex-direction: column;
+                text-align: initial;
+                width: 150px;
+
+                    h5{
+                    color: rgb(25, 204, 204);
+                    margin-left: 10px;
+                }
+                .Uno{
+                list-style:circle;
+                color:#201c74;
+                font-size: 13px;
+                text-align: start;
+                margin-left: -20px;
+            }
+        }
+        }
+        .linea{
+            border-top: 3px solid rgb(25, 204, 204);
+            height: 2px;
+            width: 250px;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .diaNormal{
+            margin-top: 2.5px;
+            margin-left: -25px;
+            h6{
+                color: #201c74;
+                font-weight: bold;
+                text-align: end;
+            }
+            .Dos{
+                list-style: none;
+                color:#201c74;
+                font-size: 15px;
+                text-align: end;
+                margin-top: 10px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+        .card3{
+            width: 380px;
+            height: auto;
+            margin-left: 20px;
+            border-radius: 0%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            margin-bottom: 20px;
+            p{
+                color:#201c74;
+            }
+            .saveFinal{
+                color: rgb(211, 12, 112);
+                font-weight: bolder;
+            }
+            .preciosFinales{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-right: 30px;
+                li{
+                    margin-top: 15px;
+                    list-style: none;
+                    text-align: start;
+                    color:#201c74;
+                }
+                .saveFinal{
+                    color: rgb(211, 12, 112);
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+    
+    .saveFinal{
+        color: rgb(211, 12, 112);
+        font-weight: bolder;
+    }
+    
+    
+    .nav-link {
+        color: #201c74;
+        font-weight: bolder;
+    }
+    
+    
+    #col-2 {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+    
+    
+        .filtrar {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            width: 320px;
+            margin-left: 40px;    
+            p {
+                color: black;
+                margin-right: 12px;
+                font-size: 18px;
+            }
+    
+            .icon {
+                width: 20px;
+                height: 25px;
+                margin-right: 10px;
+            }
+    
+            .ordenar {
+                margin-left: 1px;
+            }
+            .mapaNy{
+            margin-left: -50px;
+            margin-top: 40px;
+        }
+    }
+    
+    #lugares{
+
+    .cardsPlaces {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 600px;
+        height: 160px;
+
+        .sizeImg{
+            height: 160px;
+            width: 160px;
+        }
+    
+        .info {
+            padding-left: 10px;
+            padding-top: 10px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 600px;
+            h5{
+                color: #201c74;
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+            p{
+                display: flex;
+                font-size: 15px;
+            }
+            .ticket{
+                display: flex;
+                color: black;
+                font-weight: bolder;
+                font-size: 15px;
+            }
+        }
+    }
+}
+    .mostrarMas{
+        margin-top: 40px;
+        text-decoration: underline;
+        color:rgb(25, 204, 204);
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    }
+
+    .space {
+        display: flex;
+        height: 100px;
+        background-color: white;
+    }
+
+    footer{
+        background-color: red;
+        height: 30vh;
+    }
+    }
