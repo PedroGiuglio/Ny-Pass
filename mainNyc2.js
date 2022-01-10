@@ -13,19 +13,31 @@ $(function () {
 
     })
 
-    if (window.matchMedia('(max-width: 360px)').matches) {
+    if (window.matchMedia('(min-width: 360px)').matches) {
         $(".mostrarMas").click(function (){
             $(".mostrarMas").fadeOut();
             $(".catalogoCompleto").fadeIn();
             $(".pase").addClass("espaciado");
-            
         })
     }
 
-    $(".mostrarMas").click(function (){
-        $(".mostrarMas").fadeOut();
-        $(".catalogoCompleto").fadeIn();        
-    })
+    if (window.matchMedia('(min-width: 768px)').matches) {
+        $(".mostrarMas").click(function (){
+            $(".mostrarMas").fadeOut();
+            $(".catalogoCompleto").fadeIn();
+            $(".pase").addClass("espaciado");
+            $(".pase").removeClass("espaciado");
+        })
+    }
 
+
+    if (window.matchMedia('(min-width: 1200px)').matches) {
+        $(".mostrarMas").click(function (){
+            $(".mostrarMas").fadeOut();
+            $(".catalogoCompleto").fadeIn();
+            $(".pase").addClass("espaciado");
+            $(".pase").removeClass("espaciado");
+        })
+    }
 
 })
