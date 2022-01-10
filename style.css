@@ -1,25 +1,18 @@
 * {
   margin: 0px;
   padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 360px) {
   .Home {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     height: 70vh;
     background-color: aliceblue;
+    padding: 2px;
   }
   .Home h1 {
     font-weight: bolder;
@@ -35,14 +28,10 @@
     margin-bottom: -75px;
     padding: 3px;
   }
+
   .separacion {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: #ffffff;
     margin-left: 15px;
     margin-top: 10px;
@@ -52,32 +41,24 @@
     color: #201c74;
     margin-left: 5px;
   }
+
   .medio {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
+
   .espaciado {
     margin-top: 50px;
   }
+
   .col-1 {
     width: 360px;
   }
   .col-1 .pase {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     background-color: #201c74;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 320px;
     height: 150px;
     margin-left: 20px;
@@ -102,8 +83,7 @@
     height: 450px;
     margin-left: 20px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card h3 {
     font-weight: bold;
@@ -131,8 +111,7 @@
     margin-left: 20px;
     margin-top: 15px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card2 h3 {
     font-weight: bold;
@@ -149,24 +128,13 @@
     font-size: 15px;
   }
   .col-1 .card2 .col_Atracciones {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .col-1 .card2 .col_Atracciones .averga {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: initial;
     width: 280px;
   }
@@ -209,10 +177,7 @@
     height: auto;
     margin-left: 20px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     margin-bottom: 20px;
   }
@@ -224,16 +189,9 @@
     font-weight: bolder;
   }
   .col-1 .card3 .preciosFinales {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     margin-right: 30px;
   }
   .col-1 .card3 .preciosFinales li {
@@ -246,33 +204,26 @@
     color: #d30c70;
     font-weight: bolder;
   }
+
   .saveFinal {
     color: #d30c70;
     font-weight: bolder;
   }
+
   .nav-link {
     color: #201c74;
     font-weight: bolder;
   }
+
   #col-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
     overflow: hidden;
   }
   #col-2 .filtrar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: white;
     width: 320px;
     margin-left: 20px;
@@ -297,13 +248,8 @@
     height: 400px;
   }
   #col-2 #lugares .cardsPlaces {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-top: 20px;
     margin-left: 20px;
     width: 320px;
@@ -317,8 +263,7 @@
     padding-left: 10px;
     padding-top: 10px;
     background-color: white;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 200px;
   }
   #col-2 #lugares .cardsPlaces .info h5 {
@@ -329,8 +274,6 @@
     display: none;
   }
   #col-2 #lugares .cardsPlaces .info .ticket {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: black;
     font-weight: bolder;
@@ -343,32 +286,24 @@
     margin-left: 20px;
     margin-bottom: 20px;
   }
+
   .space {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100px;
     background-color: white;
   }
+
   footer {
-    background-color: red;
+    background-color: #201c74;
     height: 30vh;
   }
 }
-
 @media only screen and (min-width: 768px) {
   .Home {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     height: 70vh;
     background-color: aliceblue;
   }
@@ -386,14 +321,10 @@
     margin-bottom: -75px;
     padding: 3px;
   }
+
   .separacion {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: #ffffff;
     margin-left: 35px;
     margin-top: 10px;
@@ -403,31 +334,22 @@
     color: #201c74;
     margin-left: 5px;
   }
+
   .medio {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
+
   .col-1 {
     width: 320px;
     margin-left: -60px;
     margin-top: 60px;
   }
   .col-1 .pase {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     background-color: #201c74;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 280px;
     height: 140px;
     margin-bottom: 10px;
@@ -450,8 +372,7 @@
     width: 280px;
     height: 450px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card h3 {
     font-weight: bold;
@@ -478,8 +399,7 @@
     height: auto;
     margin-top: 15px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card2 h3 {
     font-weight: bold;
@@ -496,22 +416,12 @@
     font-size: 15px;
   }
   .col-1 .card2 .col_Atracciones {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .col-1 .card2 .col_Atracciones .averga {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: initial;
     width: 150px;
   }
@@ -558,10 +468,7 @@
     height: auto;
     margin-left: 20px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     margin-bottom: 20px;
   }
@@ -573,16 +480,9 @@
     font-weight: bolder;
   }
   .col-1 .card3 .preciosFinales {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     margin-right: 30px;
   }
   .col-1 .card3 .preciosFinales li {
@@ -595,32 +495,25 @@
     color: #d30c70;
     font-weight: bolder;
   }
+
   .saveFinal {
     color: #d30c70;
     font-weight: bolder;
   }
+
   .nav-link {
     color: #201c74;
     font-weight: bolder;
   }
+
   #col-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 500px;
   }
   #col-2 .filtrar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: white;
     width: 320px;
     margin-left: 40px;
@@ -643,13 +536,8 @@
     margin-top: 40px;
   }
   #col-2 #lugares .cardsPlaces {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-top: 20px;
     margin-left: 40px;
     width: 400px;
@@ -663,8 +551,7 @@
     padding-left: 10px;
     padding-top: 10px;
     background-color: white;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 400px;
   }
   #col-2 #lugares .cardsPlaces .info h5 {
@@ -672,14 +559,10 @@
     font-weight: bold;
   }
   #col-2 #lugares .cardsPlaces .info p {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-size: 15px;
   }
   #col-2 #lugares .cardsPlaces .info .ticket {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: black;
     font-weight: bolder;
@@ -692,32 +575,24 @@
     margin-left: 40px;
     margin-bottom: 20px;
   }
+
   .space {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100px;
     background-color: white;
   }
+
   footer {
-    background-color: red;
+    background-color: #201c74;
     height: 30vh;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .Home {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     height: 70vh;
     background-color: aliceblue;
   }
@@ -735,14 +610,10 @@
     margin-bottom: -75px;
     padding: 3px;
   }
+
   .separacion {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: #ffffff;
     margin-left: 35px;
     margin-top: 10px;
@@ -752,30 +623,21 @@
     color: #201c74;
     margin-left: 5px;
   }
+
   .medio {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
+
   .col-1 {
     width: 320px;
     margin-left: -100px;
   }
   .col-1 .pase {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     background-color: #201c74;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 380px;
     height: 160px;
     margin-bottom: 22px;
@@ -798,8 +660,7 @@
     width: 380px;
     height: 450px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card h3 {
     font-weight: bold;
@@ -826,8 +687,7 @@
     height: auto;
     margin-top: 15px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .col-1 .card2 h3 {
     font-weight: bold;
@@ -844,22 +704,12 @@
     font-size: 15px;
   }
   .col-1 .card2 .col_Atracciones {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .col-1 .card2 .col_Atracciones .averga {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: initial;
     width: 150px;
   }
@@ -906,10 +756,7 @@
     height: auto;
     margin-left: 20px;
     border-radius: 0%;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     margin-bottom: 20px;
   }
@@ -921,16 +768,9 @@
     font-weight: bolder;
   }
   .col-1 .card3 .preciosFinales {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     margin-right: 30px;
   }
   .col-1 .card3 .preciosFinales li {
@@ -943,32 +783,25 @@
     color: #d30c70;
     font-weight: bolder;
   }
+
   .saveFinal {
     color: #d30c70;
     font-weight: bolder;
   }
+
   .nav-link {
     color: #201c74;
     font-weight: bolder;
   }
+
   #col-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 750px;
   }
   #col-2 .filtrar {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     background-color: white;
     width: 320px;
     margin-left: 40px;
@@ -991,13 +824,8 @@
     margin-top: 40px;
   }
   #col-2 #lugares .cardsPlaces {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-top: 20px;
     margin-left: 40px;
     width: 600px;
@@ -1011,8 +839,7 @@
     padding-left: 10px;
     padding-top: 10px;
     background-color: white;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 600px;
   }
   #col-2 #lugares .cardsPlaces .info h5 {
@@ -1022,14 +849,10 @@
     margin-bottom: 25px;
   }
   #col-2 #lugares .cardsPlaces .info p {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-size: 15px;
   }
   #col-2 #lugares .cardsPlaces .info .ticket {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: black;
     font-weight: bolder;
@@ -1042,16 +865,15 @@
     margin-left: 40px;
     margin-bottom: 20px;
   }
+
   .space {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 100px;
     background-color: white;
   }
+
   footer {
-    background-color: red;
+    background-color: #201c74;
     height: 30vh;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
