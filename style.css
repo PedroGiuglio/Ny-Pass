@@ -615,7 +615,7 @@
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
-    margin-left: 35px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -631,7 +631,7 @@
 
   .col-1 {
     width: 320px;
-    margin-left: -100px;
+    margin-left: 10px;
   }
   .col-1 .pase {
     display: flex;
@@ -797,14 +797,14 @@
   #col-2 {
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 1000px;
   }
   #col-2 .filtrar {
     display: flex;
     flex-direction: row;
     background-color: white;
     width: 320px;
-    margin-left: 40px;
+    margin-left: 100px;
   }
   #col-2 .filtrar p {
     color: black;
@@ -827,8 +827,8 @@
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-left: 40px;
-    width: 600px;
+    margin-left: 100px;
+    width: 850px;
     height: 160px;
   }
   #col-2 #lugares .cardsPlaces .sizeImg {
@@ -840,7 +840,7 @@
     padding-top: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 600px;
+    width: 850px;
   }
   #col-2 #lugares .cardsPlaces .info h5 {
     color: #201c74;
@@ -862,7 +862,8 @@
     margin-top: 40px;
     text-decoration: underline;
     color: #19cccc;
-    margin-left: 40px;
+    font-size: 18px;
+    margin-left: 100px;
     margin-bottom: 20px;
   }
 
