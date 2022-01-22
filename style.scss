@@ -5,6 +5,24 @@
 }
 
 @media only screen and (min-width: 360px) {
+
+// INICIO SECCIÓN - HOME //
+
+.navbar{
+    background-color: white;
+    .link-1{
+        color: #B4EBE6;
+        font-weight: bolder;
+        text-decoration: underline 2px;
+    }
+    a{
+        color:#1C1970;
+    }
+    .toggler-custom{
+        background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
+    }
+}
+
     .Home {
         display: flex;
         flex-direction: column;
@@ -16,22 +34,21 @@
     
         h1 {
             font-weight: bolder;
-            color: #201c74;
+            color: #1C1970;
         }
     
         h3 {
-            color: rgb(68, 62, 62);
+            color: #454560;
             margin-bottom: 10px;
         }
     
         p {
-            color: rgb(68, 62, 62);
+            color: #454560;
             font-size: 18px;
             margin-bottom: -75px;
             padding: 3px;
         }
     
-        // margin-bottom: 15px;
     }
     
     .separacion {
@@ -334,11 +351,163 @@
         height: 30vh;
     }
 
+// CIERRE SECCIÓN - HOME //    
 
+// INICIO SECCIÓN - INFO //
+
+.navbar{
+    background-color: white;
+    .link-1{
+        color: #B4EBE6;
+        font-weight: bolder;
+        text-decoration: underline 2px;
+    }
+    a{
+        color:#1C1970;
+    }
+    .toggler-custom{
+        background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
+    }
+}
+
+.homeInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #F7F7FA;
+    padding: 2px;
+
+    h1 {
+        font-weight: bolder;
+        color: #1C1970;
+    }
+    p {
+        color: #454560;
+        font-size: 20px;
+        margin-bottom: -45px;
+        padding: 3px;
+    }
+}
+
+.comoFunciona{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 40vh;
+img{
+    margin-top: 500px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 250px;
+}
+.listaPasos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    h4{
+        font-weight: bolder;
+        color: #454560;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    .tamañoSeccionBoton{
+        width: 350px;
+        text-align: center;
+    .button{
+        width: 80px;
+        height: 80px;
+        background-color:white;
+        border-color:rgb(25, 204, 204);
+        border-width: 4px;
+        font-size: 45px;
+        font-weight: bolder;
+        color: rgb(25, 204, 204);
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #454560;
+    }
+}
+}
+}
+}
+
+section{
+    margin-top: 520px;
+    display: flex;
+    width: 350px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+.seccionConsultas{
+    margin-left:30px ;
+    width: 300px;
+    height: 400px;
+
+    h3{
+        text-align: center;        
+        margin-bottom: 25px;
+        color: white;
+        background-color: #1C1970;
+        height: auto;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    p{
+        text-align: center;
+    }
+}
+}
+
+.bannerCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 520px;
+    margin-bottom: 200px;
+    img{
+        width: 220px;
+        height: 150px;
+    }
+    h4{
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #51D8CD;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .botonInfo2{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-color: #51D8CD;
+    color:#51D8CD;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 0em;
+    }
+}
 }
 
 
 @media only screen and (min-width: 768px) {
+
     .Home {
         display: flex;
         flex-direction: column;
@@ -661,6 +830,158 @@
     footer{
         background-color: #201c74;
         height: 30vh;
+    }
+
+    // INICIO SECCIÓN - INFO //
+
+    .navbar{
+        background-color: white;
+        .link-1{
+            color: #B4EBE6;
+            font-weight: bolder;
+            text-decoration: underline 2px;
+        }
+        a{
+            color:#1C1970;
+        }
+        .toggler-custom{
+            background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
+        }
+    }
+    
+    .homeInfo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 40vh;
+        background-color: #F7F7FA;
+        padding: 2px;
+    
+        h1 {
+            font-weight: bolder;
+            color: #1C1970;
+        }
+        p {
+            color: #454560;
+            font-size: 20px;
+            margin-bottom: -45px;
+            padding: 3px;
+        }
+    }
+    
+    .comoFunciona{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 40vh;
+    margin-bottom: 25px;
+    img{
+        width: 150px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: -30px;
+    }
+    .listaPasos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 550px;
+        h4{
+            font-weight: bolder;
+            color: #454560;
+            margin-bottom: 45px;
+            text-align: center;
+        }
+        .botones{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+        .tamañoSeccionBoton{
+            width: auto;
+            text-align: center;
+        .button{
+            width: 80px;
+            height: 80px;
+            background-color:white;
+            border-color:rgb(25, 204, 204);
+            border-width: 4px;
+            font-size: 45px;
+            font-weight: bolder;
+            color: rgb(25, 204, 204);
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #454560;
+        }
+    }
+    }
+    }
+    }
+    
+    section{
+        margin-top: 60px;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    .seccionConsultas{
+        width: 700px;
+        height: 400px;
+    
+        h3{
+            text-align: center;        
+            margin-bottom: 25px;
+            color: white;
+            background-color: #1C1970;
+            height: auto;
+            padding: 4px;
+            font-weight: bolder;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    }
+    
+    .bannerCard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color:#1C1970;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 720px;
+        height: 200px;
+        margin-bottom: 50px;
+        img{
+            width: 220px;
+            height: 150px;
+        }
+        h4{
+            width: 300px;
+            color: #51D8CD;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .botonInfo2{
+        width: 180px;
+        height: 70px;
+        background-color: white;
+        border-color: #51D8CD;
+        color:#51D8CD;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 0em;
+        margin-right: 10px;
+        }
     }
 
 
@@ -990,5 +1311,152 @@
     footer{
         background-color:#201c74;
         height: 30vh;
+    }
+
+// INICIO - SECCION INFO //
+
+    .navbar{
+        background-color: white;
+        .link-1{
+            color: #B4EBE6;
+            font-weight: bolder;
+            text-decoration: underline 2px;
+        }
+        a{
+            color:#1C1970;
+        }
+        .toggler-custom{
+            background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v3.png");
+        }
+    }
+    
+    .homeInfo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 40vh;
+        background-color: #F7F7FA;
+        padding: 2px;
+    
+        h1 {
+            font-weight: bolder;
+            color: #1C1970;
+            margin-top: 20px;
+        }
+        p {
+            color: #454560;
+            font-size: 20px;
+            margin-bottom: -45px;
+            padding: 3px;
+        }
+    }
+    
+    .comoFunciona{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    img{
+        width: 150px;
+        height: 250px;
+    }
+    .listaPasos{
+        margin-left: 150px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        h4{
+            font-weight: bolder;
+            color: #454560;
+            margin-bottom: 25px;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+        .botones{
+            display: flex;
+            justify-content: space-between;
+    
+        .tamañoSeccionBoton{
+            width: 350px;
+            text-align: center;
+        .button{
+            width: 80px;
+            height: 80px;
+            background-color:white;
+            border-color:rgb(25, 204, 204);
+            border-width: 4px;
+            font-size: 45px;
+            font-weight: bolder;
+            color: rgb(25, 204, 204);
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #454560;
+        }
+    }
+    }
+    }
+    }
+    
+    section{
+        margin-top: 60px;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    .seccionConsultas{
+        margin-left:150px ;
+        width: 1200px;
+        height: auto;
+    
+        h3{
+            text-align: center;        
+            margin-bottom: 25px;
+            color: white;
+            background-color: #1C1970;
+            height: 50px;
+            padding: 4px;
+            font-weight: bolder;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    }
+    
+    .bannerCard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color:#1C1970;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+        width: 1200px;
+        height: 200px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        img{
+            width: 220px;
+            height: 150px;
+        }
+        h4{
+            width: 350px;
+            color: #51D8CD;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .botonInfo2{
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border-color: #51D8CD;
+        color:#51D8CD;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 0em;
+        }
     }
     }
