@@ -336,7 +336,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
     background-color: #F7F7FA;
     padding: 2px;
   }
@@ -354,13 +354,15 @@
   .comoFunciona {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     height: 40vh;
+    width: 100%;
   }
   .comoFunciona img {
-    margin-top: 500px;
+    margin-top: 520px;
     margin-bottom: 40px;
-    margin-left: 100px;
+    margin-left: 130px;
     width: 150px;
     height: 250px;
   }
@@ -368,7 +370,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 350px;
+    width: 100%;
   }
   .comoFunciona .listaPasos h4 {
     font-weight: bolder;
@@ -382,8 +384,9 @@
     justify-content: space-between;
   }
   .comoFunciona .listaPasos .botones .tamañoSeccionBoton {
-    width: 350px;
+    width: 100%;
     text-align: center;
+    margin: 2px;
   }
   .comoFunciona .listaPasos .botones .tamañoSeccionBoton .button {
     width: 80px;
@@ -399,18 +402,22 @@
   }
   .comoFunciona .listaPasos .botones .tamañoSeccionBoton p {
     color: #454560;
+    height: auto;
+    width: 80%;
+    margin-left: 40px;
+    text-align: center;
   }
 
   section {
-    margin-top: 520px;
+    margin-top: 550px;
     display: flex;
-    width: 350px;
+    width: 100%;
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
   }
   section .seccionConsultas {
-    margin-left: 30px;
+    margin-left: 50px;
     width: 300px;
     height: 400px;
   }
