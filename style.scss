@@ -29,7 +29,7 @@
         text-align: center;
         justify-content: center;
         height: 70vh;
-        background-color: aliceblue;
+        background-color: #F7F7FA;
         padding: 2px;
     
         h1 {
@@ -54,13 +54,13 @@
     .separacion {
         display: flex;
         flex-direction: row;
-        background-color: #ffffff;
+        background-color: white;
         margin-left: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
     
         p {
-            color: #201c74;
+            color: #1C1970;
             margin-left: 5px;
         }
     }
@@ -75,12 +75,12 @@
     }
 
     .col-1  {
-        width: 360px;
+        width: 100%;
     
         .pase {
             display: flex;
             flex-direction: column ;
-            background-color: #201c74;
+            background-color: #1C1970;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 320px;
             height: 150px;
@@ -113,7 +113,7 @@
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color: #1C1970;
                 text-align: center;
             }
         
@@ -145,7 +145,7 @@
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color:#1C1970;
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -176,7 +176,7 @@
                 }
                 .Uno{
                 list-style: none;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 13px;
                 text-align: start;
                 margin-left: -20px;
@@ -196,13 +196,13 @@
             margin-top: 2.5px;
             margin-left: -75px;
             h6{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
                 text-align: end;
             }
             .Dos{
                 list-style: none;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 15px;
                 text-align: end;
             }
@@ -217,7 +217,7 @@
             display: flex;
             margin-bottom: 20px;
             p{
-                color:#201c74;
+                color:#1C1970;
             }
             .saveFinal{
                 color: rgb(211, 12, 112);
@@ -232,7 +232,7 @@
                     margin-top: 15px;
                     list-style: none;
                     text-align: start;
-                    color:#201c74;
+                    color:#1C1970;
                 }
                 .saveFinal{
                     color: rgb(211, 12, 112);
@@ -249,7 +249,7 @@
     
     
     .nav-link {
-        color: #201c74;
+        color: #1C1970;
         font-weight: bolder;
     }
     
@@ -313,7 +313,7 @@
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 200px;
             h5{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
             }
             p{
@@ -347,7 +347,7 @@
     }
 
     footer{
-        background-color: #201c74;;
+        background-color: #1C1970;
         height: 30vh;
     }
 
@@ -483,15 +483,15 @@ section{
     justify-content: space-around;
     width: 100%;
     height: 400px;
-    margin-left: 70px;
-    margin-top: 650px;
-    margin-bottom: 300px;
+    margin-left: 75px;
+    margin-top: 550px;
+    margin-bottom: 100px;
     img{
         width: 250px;
         height: 150px;
     }
     h4{
-        width: 300px;
+        width: 250px;
         margin-top: 15px;
         margin-bottom: 15px;
         color: #51D8CD;
@@ -520,11 +520,11 @@ section{
         text-align: center;
         justify-content: center;
         height: 70vh;
-        background-color: aliceblue;
+        background-color: #F7F7FA;
     
         h1 {
             font-weight: bolder;
-            color: #201c74;
+            color: #1C1970;
         }
     
         h3 {
@@ -551,7 +551,7 @@ section{
         margin-bottom: 10px;
     
         p {
-            color: #201c74;
+            color: #1C1970;
             margin-left: 5px;
         }
     }
@@ -570,7 +570,7 @@ section{
         .pase {
             display: flex;
             flex-direction: column ;
-            background-color: #201c74;
+            background-color: #1C1970;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 280px;
             height: 140px;
@@ -601,7 +601,7 @@ section{
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color: #1C1970;
                 text-align: center;
             }
         
@@ -632,7 +632,7 @@ section{
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color: #1C1970;
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -662,7 +662,7 @@ section{
                 }
                 .Uno{
                 list-style:circle;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 13px;
                 text-align: start;
                 margin-left: -20px;
@@ -682,13 +682,13 @@ section{
             margin-top: 2.5px;
             margin-left: -25px;
             h6{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
                 text-align: end;
             }
             .Dos{
                 list-style: none;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 15px;
                 text-align: end;
                 margin-top: 10px;
@@ -707,7 +707,7 @@ section{
             display: flex;
             margin-bottom: 20px;
             p{
-                color:#201c74;
+                color:#1C1970;
             }
             .saveFinal{
                 color: rgb(211, 12, 112);
@@ -722,7 +722,7 @@ section{
                     margin-top: 15px;
                     list-style: none;
                     text-align: start;
-                    color:#201c74;
+                    color:#1C1970;
                 }
                 .saveFinal{
                     color: rgb(211, 12, 112);
@@ -739,7 +739,7 @@ section{
     
     
     .nav-link {
-        color: #201c74;
+        color: #1C1970;
         font-weight: bolder;
     }
     
@@ -799,7 +799,7 @@ section{
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 400px;
             h5{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
             }
             p{
@@ -834,7 +834,7 @@ section{
     }
 
     footer{
-        background-color: #201c74;
+        background-color: #1C1970;
         height: 30vh;
     }
 
@@ -1001,11 +1001,11 @@ section{
         text-align: center;
         justify-content: center;
         height: 70vh;
-        background-color: aliceblue;
+        background-color: #F7F7FA;
     
         h1 {
             font-weight: bolder;
-            color: #201c74;
+            color: #1C1970;
         }
     
         h3 {
@@ -1030,7 +1030,7 @@ section{
         margin-bottom: 10px;
     
         p {
-            color: #201c74;
+            color: #1C1970;
             margin-left: 5px;
         }
     }
@@ -1049,7 +1049,7 @@ section{
         .pase {
             display: flex;
             flex-direction: column ;
-            background-color: #201c74;
+            background-color: #1C1970;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 380px;
             height: 160px;
@@ -1081,7 +1081,7 @@ section{
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color: #1C1970;
                 text-align: center;
             }
         
@@ -1112,7 +1112,7 @@ section{
         
             h3 {
                 font-weight: bold;
-                color: #201c74;
+                color: #1C1970;
                 text-align: center;
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -1142,7 +1142,7 @@ section{
                 }
                 .Uno{
                 list-style:circle;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 13px;
                 text-align: start;
                 margin-left: -20px;
@@ -1162,13 +1162,13 @@ section{
             margin-top: 2.5px;
             margin-left: -25px;
             h6{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
                 text-align: end;
             }
             .Dos{
                 list-style: none;
-                color:#201c74;
+                color:#1C1970;
                 font-size: 15px;
                 text-align: end;
                 margin-top: 10px;
@@ -1187,7 +1187,7 @@ section{
             display: flex;
             margin-bottom: 20px;
             p{
-                color:#201c74;
+                color:#1C1970;
             }
             .saveFinal{
                 color: rgb(211, 12, 112);
@@ -1202,7 +1202,7 @@ section{
                     margin-top: 15px;
                     list-style: none;
                     text-align: start;
-                    color:#201c74;
+                    color:#1C1970;
                 }
                 .saveFinal{
                     color: rgb(211, 12, 112);
@@ -1219,7 +1219,7 @@ section{
     
     
     .nav-link {
-        color: #201c74;
+        color: #1C1970;
         font-weight: bolder;
     }
     
@@ -1280,7 +1280,7 @@ section{
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             width: 850px;
             h5{
-                color: #201c74;
+                color: #1C1970;
                 font-weight: bold;
                 margin-top: 5px;
                 margin-bottom: 25px;
@@ -1315,7 +1315,7 @@ section{
     }
 
     footer{
-        background-color:#201c74;
+        background-color:#1C1970;
         height: 30vh;
     }
 
